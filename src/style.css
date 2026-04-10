@@ -1,16 +1,104 @@
 /*  RESET CSS */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-ol, ul {
-    list-style: none;
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
+}
+
+/* GENERAL */
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* HERO SECTION */
+.hero-bg {
+  background-color: #1f2937;
+}
+
+.hero {
+  height: 90vh;
+  width: 1024px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  color: #f9faf8;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-block: 1rem;
+}
+
+header h2 {
+  margin-right: auto;
+  font-size: 1.5rem;
+}
+
+header ul {
+  display: flex;
+  gap: 1.25rem;
+}
+
+header ul li {
+  font-size: 1.125rem;
+  color: #e5e7eb;
+}
+
+.hero-info {
+  margin-bottom: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.hero-info div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.hero-info div h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-info div p {
+  text-align: justify;
+}
+
+.hero-info div button {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  width: max-content;
+  padding: 0.5rem 2.5rem;
+  border-radius: 0.5rem;
 }
