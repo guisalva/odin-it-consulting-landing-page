@@ -102,3 +102,50 @@ header ul li {
   padding: 0.5rem 2.5rem;
   border-radius: 0.5rem;
 }
+
+/* INFORMATION SECTION */
+.information-bg {
+  background-color: #fff;
+}
+
+.information {
+  width: 1024px;
+  margin: 2rem auto 5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.information h3 {
+  font-size: 2.25rem;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.services {
+  display: flex;
+  gap: 3rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.625rem;
+
+  max-width: 200px;
+}
+
+.service img {
+  width: 48px;
+}
+
+.service span {
+  color: #1f2937;
+  font-size: 0.925rem;
+  font-weight: 300;
+}
