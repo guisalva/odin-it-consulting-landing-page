@@ -110,7 +110,7 @@ header ul li {
 
 .information {
   width: 1024px;
-  margin: 2rem auto 5rem;
+  margin: 4rem auto 8rem;
 
   display: flex;
   flex-direction: column;
@@ -148,4 +148,30 @@ header ul li {
   color: #1f2937;
   font-size: 0.925rem;
   font-weight: 300;
+}
+
+/* QUOTE SECTION */
+.quote-bg {
+  background-color: #e5e7eb;
+  padding: 8rem 0 6rem;
+}
+
+.quote {
+  width: 1024px;
+  margin: 0 auto;
+  color: #1f2937;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.quote p {
+  font-size: 2.25rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote span {
+  align-self: flex-end;
+  font-weight: 900;
 }
