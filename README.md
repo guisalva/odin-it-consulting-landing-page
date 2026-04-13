@@ -1,6 +1,6 @@
 # Odin - IT Consulting Landing Page
 
-![Status Badge](https://img.shields.io/badge/status-in_development-yellow?style=for-the-badge)
+![Status Badge](https://img.shields.io/badge/status-concluded-brightgreen?style=for-the-badge)
 
 This project was built to practice core concepts from the **Foundations Course** of [The Odin Project](https://www.theodinproject.com).
 
@@ -28,7 +28,7 @@ Run the project:
 
 ## 📸 Preview
 
-*(Add a screenshot or live demo link here)*
+![Desktop preview](./src/assets/desktop-preview.png)
 
 ## 📚 Credits
 
